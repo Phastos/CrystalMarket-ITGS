@@ -64,6 +64,7 @@ body {
 #navbar li {
     list-style: none;
     padding: 0 20px;
+    position: relative;
 }
 
 #navbar li a{
@@ -76,5 +77,17 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #00B39B;
+    color: #00a0a3;
 }
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #00a0a3;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+

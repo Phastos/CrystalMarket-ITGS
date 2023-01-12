@@ -327,7 +327,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/placeholders/banner/b17.jpg");
+    background-image: url("img/banners/b3.png");
     min-width: 825px;
     height: 50vh;
     background-size: cover;
@@ -336,7 +336,7 @@ body {
 }
 
 #sm-banner .banner-box2{
-    background-image: url("img/placeholders/banner/b10.jpg");
+    background-image: url("img/banners/b4.png");
 }
 
 #sm-banner h4{

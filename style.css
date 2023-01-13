@@ -29,7 +29,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     color: #465b52;
     margin: 15px 0 20px 0;
 }
@@ -312,7 +312,7 @@ body {
 }
 
 #banner button:hover{
-    background: #cfc100;
+    background: #ffca07;
     color: #ffff;
 }
 
@@ -406,4 +406,58 @@ body {
 
 #banner3 .banner-box3 h3{
     color: rgb(255, 255, 255);
+}
+
+#newsletter{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ align-items: center;
+ background-image: url("img/banners/NewsB.png");
+ background-repeat: no-repeat;
+ background-position: 0% 50%;
+ background-size: 40% 178%;
+ background-color: #000000;
+}
+
+#newsletter h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(206, 206, 206);
+}
+
+#newsletter p span{
+    color: #ffca07;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.30rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+  background-color: #ffca07;
+  color: #fff;
+  white-space: nowrap;
+  height: 95%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }

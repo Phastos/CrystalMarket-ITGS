@@ -375,7 +375,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/placeholders/banner/b7.jpg");
+    background-image: url("img//banners/b5.jpg");
     min-width: 32%;
     height: 30vh;
     background-size: cover;
@@ -385,11 +385,11 @@ body {
 }
 
 #banner3 .banner-box2{
-    background-image: url("img/placeholders/banner/b4.jpg");
+    background-image: url("img/banners/b6.jpg");
 }
 
 #banner3 .banner-box3{
-    background-image: url("img/placeholders/banner/b18.jpg");
+    background-image: url("img/banners/b7.jpg");
 }
 
 #banner3 h2{
@@ -402,4 +402,8 @@ body {
     color: rgb(146, 0, 0);
     font-weight: 800;
     font-size: 21px;
+}
+
+#banner3 .banner-box3 h3{
+    color: rgb(255, 255, 255);
 }

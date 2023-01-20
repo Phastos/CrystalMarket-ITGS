@@ -119,6 +119,12 @@ body {
     bottom: -4px;
     left: 20px;
 }
+
+#mobile {
+    display: flex;
+    align-items: center;
+}
+
 /* Home Page */
 #hero{
     background-image: url("img/MainScreen.png");
